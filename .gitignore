@@ -1,0 +1,26 @@
+# Build artifacts
+*.pkg.tar.zst
+*.pkg.tar
+*.build
+*.log
+.BUILDINFO
+.MTREE
+.PKGINFO
+
+# Downloaded files
+*.deb
+*.tar.zst
+*.tar
+control.tar.zst
+debian-binary
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

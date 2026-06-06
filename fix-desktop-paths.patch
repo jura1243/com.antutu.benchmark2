@@ -1,0 +1,11 @@
+--- a/opt/apps/com.antutu.benchmark/entries/applications/com.antutu.benchmark.desktop
++++ b/opt/apps/com.antutu.benchmark/entries/applications/com.antutu.benchmark.desktop
+@@ -5,7 +5,7 @@ Name=Antutu Benchmark
+ Name[zh_CN]=安兔兔评测
+ Name[zh_HK]=安兔兔评测
+ Name[zh_TW]=安兔兔评测
+-Exec=/opt/apps/com.antutu.benchmark/files/bin/benchmark
++Exec=antutu %U
+ Icon=com.antutu.benchmark
+ Terminal=false
+ Categories=System;Qt;

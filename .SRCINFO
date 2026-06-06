@@ -1,0 +1,15 @@
+pkgbase = com.antutu.benchmark
+	pkgdesc = 安兔兔评测 for linux 安兔兔评测（AnTuTu）是一款跨平台，支持手机、电脑设备的专业性能评定软件。Linux 版本的安兔兔支持一键跑分，可评估 CPU/GPU/MEM/UX 性能。
+	pkgver = 1.0.0.591
+	pkgrel = 4
+	url = https://www.antutu.com/
+	arch = x86_64
+	license = custom
+	provides = antutu
+	options = !strip
+	source = http://file.antutu.com/soft/com.antutu.benchmark_amd64.deb
+	source = fix-desktop-paths.patch
+	md5sums = f114e5fe49ad569a5ce412247a72644e
+	md5sums = SKIP
+
+pkgname = com.antutu.benchmark
